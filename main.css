@@ -1,0 +1,178 @@
+.body {
+    background-color: aqua;
+}
+
+.box1 {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+    background-color: black;
+}
+
+
+.allbox2 {
+    margin-top: 50px;
+}
+
+.box2 {
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 250px;
+    background-color: black;
+}
+
+
+@media only screen and (max-width:768px) {
+    .body {
+        background-color: rgb(0, 29, 29);
+    }
+
+}
+
+
+
+.allbox {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.allbox2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    color: #fff;
+}
+
+@media only screen and (max-width:1024px) {
+    .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 200px;
+        background-color: rgb(128, 53, 0);
+        
+
+    }
+
+    .allbox {
+        background-color: blue;
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+@media only screen and (max-width:1024px) {
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 200px;
+        background-color: rgb(234, 168, 0);
+
+    }
+
+    .allbox2 {
+        gap: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 200px;
+        background-color: rgb(5, 58, 96);
+    }
+
+    .allbox {
+        color: rgb(172, 43, 7);
+        gap: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+}
+@media only screen and (max-width:768px) {
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 200px;
+        background-color: rgb(31, 57, 70);
+    }
+
+    .allbox2 {
+        gap: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        color: #392c2c;
+
+
+    }
+
+}
+
+@media only screen and (max-width:570px) {
+    .box1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 200px;
+        background-color: rgb(16, 53, 16);
+    }
+
+    .allbox {
+        gap: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+}
+@media only screen and (max-width:570px) {
+    .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 200px;
+        background-color: rgb(215, 226, 2);
+    }
+
+    .allbox1 {
+        gap: 5px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+
+}
